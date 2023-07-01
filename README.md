@@ -4,16 +4,18 @@ Aplikasi untuk menampilkan informasi mengenai cuaca dan gempa yang berasal dari 
 
 API cuaca yang digunakan berasal dari [Cuaca Gempa REST API](https://github.com/renomureza/cuaca-gempa-rest-api) karena sudah dalam bentuk JSON.
 
-# Fitur
+## Fitur
 
 Berikut adalah fitur aplikasi ini:
 
 1. Menampilkan informasi cuaca suatu provinsi atau kota di Indonesia.
-2. Menampilkan informasi gempa di Indonesia.
-3. Dark theme atau light theme.
 
-# Demo
+### Demo
 
 Berikut adalah demo dari aplikasi ini:
 
-[![Animation4.gif](https://i.postimg.cc/9FZLDtjp/Animation4.gif)](https://postimg.cc/dLQ2XC3k)
+![assets](assets/1.png)
+![assets](assets/2.png)
+![assets](assets/3.png)
+![assets](assets/4.png)
+![assets](assets/5.png)
