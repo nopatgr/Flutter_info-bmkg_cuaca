@@ -1,0 +1,62 @@
+name: info_bmkg
+description: Info cuaca dan gempa dari BMKG.
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  # sdk: ">=2.17.3 <3.0.0"
+  sdk: ">=2.18.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  intl: ^0.17.0
+  http: ^0.13.5
+  get_it: ^7.2.0
+  provider: ^6.0.3
+  photo_view: ^0.14.0
+  url_launcher: ^6.1.5
+  dropdown_search: ^5.0.2
+  cupertino_icons: ^1.0.2
+  shared_preferences: ^2.0.15
+  cached_network_image: ^3.2.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+  flutter_launcher_icons: ^0.10.0
+
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/icons/earthquake.png"
+
+  min_sdk_android: 21
+
+  windows:
+    generate: true
+    image_path: "assets/icons/earthquake.png"
+    icon_size: 48 # min:48, max:256, default: 48
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/icons/
+
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
